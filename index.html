@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Lay's - Flavorful Chips Experience</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Lay's</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#favorites" class="nav__link active-link">Favorites</a></li>
+                    <li><a href="#care" class="nav__link active-link">Care</a></li>
+                    <li><a href="#products" class="nav__link active-link">Products</a></li>
+                    <li><a href="#contact" class="nav__link active-link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+                <div class="nav__social">
+                    <a href="#" target="_blank" class="nav__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+                    <a href="#" target="_blank" class="nav__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" target="_blank" class="nav__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Pure Delight</h1>
+                    <p class="home__description">
+                        Indulge in the Ultimate Chip Experience with Lay's: Bold Flavors, Irresistible Crunch.
+                    </p>
+                    <img src="assets/meat.png" alt="" class="home__meat">
+                    <div class="home__buttons">
+                        <a href="#" class="button">Shop Now</a>
+                        <a href="#" class="button button__ghost">Discover More</a>
+                    </div>
+                </div>
+                <div class="home__images">
+                    <div class="home__circle">
+                        <div class="home__subcircle"></div>
+                    </div>
+                    <img src="assets/item1.png" alt="image" class="home__img">
+                    <img src="assets/leaf-2.png" alt="image" class="home__chips-1">
+                    <img src="assets/crab.png" alt="image" class="home__chips-2">
+                    <img src="assets/red-chili-pepper.png" alt="image" class="home__chips-3">
+                    <img src="assets/cheese2.png" alt="image" class="home__tomato-1">
+                    <img src="assets/chips-3.png" alt="image" class="home__tomato-2">
+                    <img src="assets/leaf-1.png" alt="image" class="home__leaf">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FAVORITES ====================-->
+        <section class="favorite section" id="favorites">
+            <div class="favorites__container container grid">
+                <div class="favorites__data">
+                    <h2 class="section__title">Find Your Perfect Flavor</h2>
+                    <p class="favorites__description">
+                        Enjoy a Crunchy Delight with Our Top Flavors. Every Bite is a Flavorful Adventure.
+                    </p>
+                    <img src="assets/cheese.png" alt="image" class="favorites__chese-1">
+                    <img src="assets/cheese.png" alt="image" class="favorites__chese-2">
+                </div>
+                <div class="favorites__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="favorites__article swiper-slide">
+                            <img src="assets/item1.png" alt="image" class="favorites__img">
+                            <img src="assets/leaf-1.png" alt="image" class="favorites__laef-1">
+                            <img src="assets/leaf-3.png" alt="image" class="favorites__laef-2">
+                        </article>
+                        <article class="favorites__article swiper-slide">
+                            <img src="assets/item2.png" alt="image" class="favorites__img">
+                            <img src="assets/leaf-1.png" alt="image" class="favorites__laef-1">
+                            <img src="assets/leaf-2.png" alt="image" class="favorites__laef-2">
+                        </article>
+                        <article class="favorites__article swiper-slide">
+                            <img src="assets/item3.png" alt="image" class="favorites__img">
+                            <img src="assets/leaf-1.png" alt="image" class="favorites__laef-1">
+                            <img src="assets/leaf-2.png" alt="image" class="favorites__laef-2">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CARE ====================-->
+        <section class="section__container experience__container" id="care">
+            <p class="section__subheader">CUSTOMER EXPERIENCE</p>
+            <h2 class="section__header">
+                Committed to Exceptional Customer Service
+            </h2>
+            <div class="experience__content">
+                <div class="experience__card experience__card--left">
+                    <span><i class="ri-price-tag-3-fill"></i></span>
+                    <h4>Great Value for Your Money</h4>
+                </div>
+                <div class="experience__card experience__card--left">
+                    <span><i class="ri-money-rupee-circle-fill"></i></span>
+                    <h4>Affordable Pricing Options</h4>
+                </div>
+                <div class="experience__card experience__card--left">
+                    <span><i class="ri-bank-card-fill"></i></span>
+                    <h4>Flexible Payment Plans</h4>
+                </div>
+                <div class="experience__card experience__card--right">
+                    <span><i class="ri-award-fill"></i></span>
+                    <h4>Award-Winning Quality</h4>
+                </div>
+                <div class="experience__card experience__card--right">
+                    <span><i class="ri-customer-service-2-fill"></i></span>
+                    <h4>24/7 Customer Support</h4>
+                </div>
+                <div class="experience__card experience__card--right">
+                    <span><i class="ri-car-fill"></i></span>
+                    <h4>Convenient Delivery Options</h4>
+                </div>
+                <img src="assets/chips-1.png" alt="experience" />
+            </div>
+        </section>
+
+        <!--==================== BANNER ====================-->
+        <section class="banner">
+            <div class="banner__container">
+                <ul class="banner__list">
+                    <li class="banner__item">
+                        <span>Eco-Friendly Packaging</span>
+                    </li>
+                    <li class="banner__item">
+                        <i class="ri-heart-pulse-line"></i>
+                        <span>Low Fat & Delicious</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section" id="products">
+            <h2 class="section__title">Top-Selling Flavors</h2>
+            <div class="products__container container">
+                <div class="products__content grid">
+                    <article class="products__card">
+                        <img src="assets/item1.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Cheddar</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$8</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/item2.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Salt</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$5</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/item3.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Yogurt</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$5</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/item4.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Vinegar</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$3</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/item5.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Cream Onion</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$5</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                    <article class="products__card">
+                        <img src="assets/item6.png" alt="image" class="products_image">
+                        <span class="products__subtitle">Bacon</span>
+                        <h2 class="products__title">Lay's</h2>
+                        <span class="products__price">$5</span>
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                </div>
+                <img src="assets/crab.png" alt="image" class="products__crab">
+                <img src="assets/carb2.png" alt="image" class="products__hamburger">
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container contact__container">
+                <h2 class="section__title">Get in Touch with Us</h2>
+                <div class="contact__content grid">
+                    <div class="contact__data grid">
+                        <div>
+                            <h3 class="contact__title">Send Us a Message</h3>
+                            <div class="contact__social">
+                                <a href="#" target="_blank">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="ri-messenger-fill"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="ri-mail-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <address class="contact__info">
+                                +00-987-7654-321 <br>
+                                +11-012345
+                            </address>
+                        </div>
+                        <div>
+                            <h3 class="contact__title">Visit Us</h3>
+                            <address class="contact__info">
+                                Beverly Hills, CA
+                            </address>
+                        </div>
+                        <div>
+                            <img src="assets/icon.png" alt="image" class="contact__img2">
+                            <img src="assets/icon.png" alt="image" class="contact__img">
+                        </div>
+                        <img src="assets/cheese.png" alt="" class="contact__shrimp">
+                        <img src="assets/meat.png" alt="" class="contact__meat">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">Lay's</a>
+            <div class="footer__content grid">
+                <a href="#" class="footer__link">Terms & Conditions</a>
+                <a href="#" class="footer__link">Privacy Policy</a>
+                <span class="footer__copy">
+                    &#169; All Rights Reserved By Lay's
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="scrollreveal.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>
